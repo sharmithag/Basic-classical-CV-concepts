@@ -94,6 +94,7 @@ def edgeOrientedFilters(im):
   cv2.imshow(edge)
   cv2.waitKey(0)
   return edge
-
+img_path = "/aero.jpg" ## add the path here
+im = cv2.imread(img_path)
 overall = orientedFilterMagnitude(im,3)
 edge = edgeOrientedFilters(overall)
