@@ -1,5 +1,5 @@
 # Classical_CV
-Classical implementation of CV concepts
+Classical implementation of CV concepts (from source) like Edge Detection, Template Matching
 
 All required input given in data folder
 
